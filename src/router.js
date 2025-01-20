@@ -6,7 +6,7 @@ import Home from "./pages/Home.vue";
 
 // Create a router instance
 const routes = [
-  { path: "/", redirect: "/login" },
+  { path: "/", redirect: "/login", component: {template: '<router-view/>'}, children: [{path: 'login', name: 'Login', component: Login}] },
   { path: "/login", component: Login },
   { path: "/register", component: Register },
   { path: "/home", component: Home, meta: { requiresAuth: true } },
