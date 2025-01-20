@@ -1,13 +1,11 @@
 <template>
   <div id="app">
-    <Login />
+    <!-- This is where the current route's component will be injected -->
+    <router-view />
   </div>
 </template>
 
 <script>
-
-import Login from "./pages/Login.vue";
-
 export default {
   name: "App",
 };

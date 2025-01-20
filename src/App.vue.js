@@ -1,4 +1,3 @@
-import Login from "./pages/Login.vue";
 export default (await import('vue')).defineComponent({
     name: "App",
 });
@@ -12,8 +11,8 @@ function __VLS_template() {
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({
         id: ("app"),
     });
-    const __VLS_0 = {}.Login;
-    /** @type { [typeof __VLS_components.Login, ] } */ ;
+    const __VLS_0 = {}.RouterView;
+    /** @type { [typeof __VLS_components.RouterView, typeof __VLS_components.routerView, ] } */ ;
     // @ts-ignore
     const __VLS_1 = __VLS_asFunctionalComponent(__VLS_0, new __VLS_0({}));
     const __VLS_2 = __VLS_1({}, ...__VLS_functionalComponentArgsRest(__VLS_1));
