@@ -1,22 +1,18 @@
-import TaskList from './components/TaskList.vue';
 export default (await import('vue')).defineComponent({
-    name: 'App',
-    components: {
-        TaskList
-    }
-}); /* PartiallyEnd: #3632/script.vue */
+    name: "App",
+});
+; /* PartiallyEnd: #3632/script.vue */
 function __VLS_template() {
     const __VLS_ctx = {};
-    const __VLS_componentsOption = {
-        TaskList
-    };
     let __VLS_components;
     let __VLS_directives;
+    // CSS variable injection 
+    // CSS variable injection end 
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({
         id: ("app"),
     });
-    const __VLS_0 = {}.TaskList;
-    /** @type { [typeof __VLS_components.TaskList, ] } */ ;
+    const __VLS_0 = {}.RouterView;
+    /** @type { [typeof __VLS_components.RouterView, typeof __VLS_components.routerView, ] } */ ;
     // @ts-ignore
     const __VLS_1 = __VLS_asFunctionalComponent(__VLS_0, new __VLS_0({}));
     const __VLS_2 = __VLS_1({}, ...__VLS_functionalComponentArgsRest(__VLS_1));
