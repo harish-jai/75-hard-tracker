@@ -1,1 +1,1 @@
-{"root":["./src/main.ts","./src/shims-vue.d.ts","./src/vite-env.d.ts","./src/App.vue","./src/components/HelloWorld.vue","./src/components/TaskList.vue"],"version":"5.6.3"}
+{"root":["./src/main.ts","./src/shims-vue.d.ts","./src/vite-env.d.ts","./src/App.vue","./src/components/HelloWorld.vue","./src/components/TaskList.vue","./src/pages/Login.vue","./src/pages/Register.vue"],"version":"5.6.3"}
