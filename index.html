@@ -1,13 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>75 Hard Tracker</title>
+
+  <!-- PWA Support -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#4caf50"> <!-- Adjust to your app's primary color -->
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon-192x192.png">
+  <link rel="apple-touch-icon" href="/icon-512x512.png">
+
+  <!-- Description and Keywords for SEO -->
+  <meta name="description" content="Track your progress on the 75 Hard Challenge. Log workouts, water intake, reading, and more.">
+  <meta name="keywords" content="75 Hard, Fitness Tracker, Challenge App, Progress Tracker, Accountability">
+  <meta name="author" content="Your Name">
+
+  <!-- Open Graph Tags for Social Sharing -->
+  <meta property="og:title" content="75 Hard Tracker">
+  <meta property="og:description" content="Track your progress on the 75 Hard Challenge.">
+  <meta property="og:image" content="/icon-512x512.png">
+  <meta property="og:url" content="https://your-app.vercel.app">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+
+  <!-- App Root -->
+  <div id="app"></div>
+
+  <!-- Vite JavaScript -->
+  <script type="module" src="/src/main.js"></script>
+</body>
 </html>
